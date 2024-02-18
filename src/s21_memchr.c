@@ -1,6 +1,6 @@
 #include "s21_string.h"
 void *s21_memchr(const void *str, int c, s21_size_t n) {
-  const void *res = s21_NULL;
+  void *res = s21_NULL;
   const unsigned char *memchrStr =
       (const unsigned char *)str;  // unsigned char - это тип данных
                                    // представляет собой беззнаковый символ,
